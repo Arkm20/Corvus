@@ -1,1 +1,2 @@
-*Just a Project*
+# Just a Project
+Nothing else...
