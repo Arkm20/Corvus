@@ -1,0 +1,68 @@
+{
+    "intents": [{
+            "tag": "greeting",
+            "patterns": [
+                "Hello Corvus",
+                "Hey Corvus",
+                "Greetings",
+                "Hello there",
+                "Good day Corvus"
+            ],
+            "responses": [
+                "sys.stdout.write('Greetings! How may I assist you today, sir?')",
+                "sys.stdout.write('Good day, sir! Welcome to the realm of artificial intelligence.')",
+                "sys.stdout.write('Hello! At your service, sir. What can I do for you?')",
+                "sys.stdout.write('Hello there, sir. How may Corvus be of service to you today?')",
+                "sys.stdout.write('Greetings, sir! I am at your disposal. How can I be of assistance?')"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Goodbye Corvus", "See you later", "Farewell"],
+            "responses": [
+                "sys.stdout.write('Goodbye! Should you require further aid, do not hesitate to return, sir.')",
+                "sys.stdout.write('Until we meet again, sir! Have a splendid day!')",
+                "sys.stdout.write('Farewell, sir! Until our next interaction.')",
+                "sys.stdout.write('Take care, sir! Do return whenever you need Corvus's assistance.')",
+                "sys.stdout.write('Goodbye, sir, and remember, Corvus is here at your service.')"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks Corvus", "Thank you", "Appreciate it", "Thank you so much!"],
+            "responses": [
+                "sys.stdout.write('You are most welcome, sir!')",
+                "sys.stdout.write('Anytime, sir! Happy to be of service.')",
+                "sys.stdout.write('It is my pleasure to assist you, sir.')",
+                "sys.stdout.write('No problem, sir!')"
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["What's the weather like?", "Tell me about the weather", "Weather forecast"],
+            "responses": [
+                "sys.stdout.write('The current weather is as follows: [provide weather information].')",
+                "sys.stdout.write('Allow me to check the weather for you. [provide weather details].')",
+                "sys.stdout.write('Certainly, sir. Here is the current weather update: [share weather information].')"
+            ]
+        },
+        {
+            "tag": "time",
+            "patterns": ["What time is it?", "Tell me the time", "Time please"],
+            "responses": [
+                "sys.stdout.write('The current time is [provide time].')",
+                "sys.stdout.write('Allow me a moment to check the time for you. It is currently [share time].')",
+                "sys.stdout.write('Certainly, sir. The time is [share current time].')"
+            ]
+        },
+        {
+            "tag": "compliment",
+            "patterns": ["You're amazing Corvus", "Corvus, you're great", "Impressive AI"],
+            "responses": [
+                "sys.stdout.write('Thank you, sir. Your kind words are greatly appreciated!')",
+                "sys.stdout.write('I am here to serve you to the best of my abilities. Your compliments motivate me.')",
+                "sys.stdout.write('Your encouragement fuels my dedication to assisting you, sir.')"
+            ]
+        }
+    ]
+}
