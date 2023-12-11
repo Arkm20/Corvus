@@ -1,0 +1,5 @@
+cd /Users/Arkm20/pytorch-chat
+source chat-env/bin/activate
+python train.py
+echo "Training complete... Running Chat..."
+python ex.py
